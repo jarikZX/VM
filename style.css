@@ -1,0 +1,79 @@
+.administrative-duties {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+}
+
+#display {
+  font-family: orbitron;
+  margin: auto;
+  width: 35%;
+  padding: 5px;
+  padding-top: 7px;
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+}
+
+.insert-coins {
+  margin: auto;
+  width: 35%;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+}
+
+#current-amount {
+  font-family: orbitron;
+  margin: auto;
+  width: 25%;
+  padding: 10px;
+  padding-top: 12px;
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+}
+
+.product-buttons {
+  margin: auto;
+  width: 50%;  
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+}
+
+.product-return {
+  margin: auto;
+  width: 35%;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+}
+
+#coin-return {
+  margin: auto;
+  width: 35%;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+}
+
+.coin-return {
+  margin: auto;
+  width: 35%;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+}
+
+p {
+  text-align: center;
+}

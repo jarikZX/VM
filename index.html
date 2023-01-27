@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vending Machine</title>
+  <script src="machine.js"></script>
+  <script src="product.js"></script>
+  <script src="coin.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  <body>
+    <div class="container">
+      <div class="machine">
+        
+        <p>Административные функции:</p>
+        <div class="administrative-duties"> 
+          <button id="empty-all-coins">Вернуть все купюры</button>
+          <button id="restock-coins">Пополнить запасы купюр</button>
+          <button id="remove-all-products-from-inventory">  Забрать все продукты</button>
+          <button id="restock-inventory">Пополнить запасы продуктов</button>
+        </div>  
+        
+        <p>Дисплей:</p>
+        <div id="display"></div>
+        
+        <p>Вставьте купюру:</p>
+        <div class="insert-coins">
+          <button type="button" id="fifty">Вставльте 50₽</button>
+          <button type="button" id="hundred">Вставьте 100₽</button>
+          <button type="button" id="fivehundred">Вставьте 500₽</button>
+          <button type="button" id="thousand">Втсавьте 1000₽</button>
+        </div>
+        
+        <p>Введенная сумма:</p>
+        <div id="current-amount"></div>
+        
+        <p>Выберите продукт:</p>
+        <div class="product-buttons">
+          <button type="button" id="cola">Cola!<p>100₽</p></button>
+          <button type="button" id="chips">Chips!<p>50₽</p></button>
+          <button type="button" id="candy">Candy!<p>65₽</p></button>
+          <button type="button" id="cookie">Cookie!<p>1000₽</p></button>
+          <button type="button" id="milk">Milk!<p>505₽</p></button>
+          <button type="button" id="potato">Potato!<p>99₽</p></button>
+          <button type="button" id="water">Water!<p>55₽</p></button>
+          <button type="button" id="snickers">snickers!<p>110₽</p></button>
+        </div>
+        
+        <p>Вы передумали?</p>
+        <div id="coin-return">
+          <button type="button" id="coin-return-button" > Вернуть деньги</button>
+        </div>
+        
+        <p>Собрать продукты:</p>
+        <div class="product-return">
+          <button id="take-product">Взять продукт</button>
+          [<a id="product-return"></a>]
+        </div>
+        
+        <p>Собрать деньги:</p>
+        <div class="coin-return">
+          <button id="take-coins">Взять деньги</button>
+          [<a id="coins"></a>]
+        </div>  
+        
+      </div>
+    </div>
+    <script src="controller.js"></script>
+  </body>
+</html>
